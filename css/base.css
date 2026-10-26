@@ -15,3 +15,7 @@ body {
 header, footer {
     background-color: var(--background-secondary);
 }
+
+a {
+    color: var(--foreground-secondary);
+}
