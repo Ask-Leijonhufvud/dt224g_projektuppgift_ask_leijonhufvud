@@ -19,3 +19,12 @@ header, footer {
 a {
     color: var(--foreground-secondary);
 }
+
+/* HEADER */
+/* logo */
+#logo-header img {
+    max-width: 100px;
+}
+#header-title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
