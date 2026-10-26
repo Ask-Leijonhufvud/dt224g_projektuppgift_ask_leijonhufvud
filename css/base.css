@@ -73,9 +73,14 @@ a {
 nav ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 nav li {
   padding: 5px 20px;
   border-top: 1px solid var(--foreground-primary);
   /*display: none; not currently set as menu button functionality not yet implemented*/
+}
+/*bottom border*/
+header {
+    border-bottom: 1px solid var(--foreground-primary);
 }
