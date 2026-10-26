@@ -3,6 +3,7 @@
     --background-secondary: #000080;
     --foreground-primary: #ffffff;
     --foreground-secondary: #00ffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 body {
