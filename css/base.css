@@ -10,3 +10,7 @@ body {
     background-color: var(--background-primary);
     color: var(--foreground-primary);
 }
+
+header, footer {
+    background-color: var(--background-secondary);
+}
