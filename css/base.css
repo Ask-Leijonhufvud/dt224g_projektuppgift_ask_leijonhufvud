@@ -4,3 +4,7 @@
     --foreground-primary: #ffffff;
     --foreground-secondary: #00ffff;
 }
+
+body {
+    margin: 0;
+}
