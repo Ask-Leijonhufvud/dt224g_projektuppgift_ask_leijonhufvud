@@ -23,3 +23,11 @@ form {
     gap: 10px;
     align-items: center;
 }
+
+/* set field width */
+form div {
+    width: 75%;
+}
+textarea, input {
+    width: 100%;
+}
