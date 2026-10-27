@@ -145,6 +145,10 @@ header {
   align-items: center;
   /* cause of gaps between links is undetermined */
 }
+/* top border */
+footer {
+  border-top: 1px solid var(--foreground-primary);
+}
 /* desktop layout */
 @media (min-width: 600px) {
   /* logo & title */
