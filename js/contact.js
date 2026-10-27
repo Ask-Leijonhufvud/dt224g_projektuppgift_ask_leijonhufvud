@@ -15,10 +15,29 @@ function validateInput() {
     let message = messageInput.value;
     let email = emailInput.value;
     let phone = phoneInput.value;
+
+    // boolean to indicate if form input is invalid
+    let isInvalid = false;
+
+    // list of new errors
+    let newErrorList = [];
+
+    // if the message is blank
+    if (message.trim() == "") {
+        isInvalid = true;
+        newErrorList.push("You must enter a message");
+    }
+
+    // if input is invalid
+    if (isInvalid == true) {
+        newErrorList.forEach(error => {
+            errorList.innerHTML += `<li>${error}</li>`;
+        });
+    }
 }
 
 // event listener for form submission
 form.addEventListener("submit", event => {
     event.preventDefault();
-    console.log("form submitted");
+    validateInput();
 })
