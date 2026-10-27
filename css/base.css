@@ -82,11 +82,42 @@ nav ul {
 nav li {
   padding: 5px 20px;
   border-top: 1px solid var(--foreground-primary);
-  /*display: none; not currently set as menu button functionality not yet implemented*/
+  display: none;
 }
 /*bottom border*/
 header {
     border-bottom: 1px solid var(--foreground-primary);
+}
+/* desktop layout */
+@media (min-width: 610px) {
+  /* show menu options */
+  nav li {
+    display: inline-block;
+  }
+  /* hide menu button */
+  #menu-button {
+    display: none;
+  }
+  /* set layout */
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  /* style buttons */
+  nav ul {
+    height: 100%;
+  }
+  nav li {
+    height: 100%;
+    border-top: none;
+    border-left: 1px solid var(--foreground-primary);
+  }
+  nav a {
+    position: relative;
+    top: 33px;
+  }
 }
 
 /* FOOTER */
