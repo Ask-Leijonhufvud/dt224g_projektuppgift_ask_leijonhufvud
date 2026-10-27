@@ -16,6 +16,11 @@ Projektets syfte var att:
 
 ## Filer
 
+Detta är en lista över de filer som ingår i projektet och vad de innehåller.
+
+* about.html: html för sidan About Us
+* contact.html: html för kontaktsidan
+* index.html: html för huvudsidan
 * README.md: denna README
 
 ### assets
@@ -23,6 +28,22 @@ Projektets syfte var att:
 Denna mapp innehållar alla bildfiler som jag använt för webbplatsen.
 
 * logo.png: verksamhetens logga
+
+### css
+
+Denna mapp innehåller alla css filer som används i projektet.
+
+* about.css: de css regler som är unika för sidan About Us
+* base.css: de css regler som är gemensamma för alla sidor på webbplatsen
+* contact.css: de css regler som är unika för kontaktsidan
+* index.css: de css regler som är unika för huvudsidan
+
+### js
+
+Denna mapp innehåller alla JavaScript-filer som används i projektet.
+
+* base.js: den JS kod som är gemensam för alla sidor på webbplatsen.
+* contact.js: den JS kod som är unik för kontaktsidan.
 
 ### Wireframes och Mockup
 
