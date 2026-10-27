@@ -27,6 +27,11 @@ function validateInput() {
         isInvalid = true;
         newErrorList.push("You must enter a message");
     }
+    // if the email AND phone is blank
+    if (email.trim() == "" && phone.trim() == "") {
+        isInvalid = true;
+        newErrorList.push("You must input either your email-adress or your phone number");
+    }
 
     // if input is invalid
     if (isInvalid == true) {
