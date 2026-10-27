@@ -84,3 +84,9 @@ nav li {
 header {
     border-bottom: 1px solid var(--foreground-primary);
 }
+
+/* FOOTER */
+/* logo */
+#logo-footer img {
+  max-width: 100px;
+}
