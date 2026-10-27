@@ -1,22 +1,22 @@
 /* border between introduction and destinations */
 #introduction {
-    border-bottom: 1px solid var(--foreground-primary);
+  border-bottom: 1px solid var(--foreground-primary);
 }
 
 /* cards */
 .card {
-    width: 300px;
-    height: 400px;
-    background-color: var(--background-secondary);
-    border-radius: 10px;
-    border: 1px solid var(--foreground-primary);
+  width: 300px;
+  height: 400px;
+  background-color: var(--background-secondary);
+  border-radius: 10px;
+  border: 1px solid var(--foreground-primary);
 }
 
 /* layout card section */
 #destinations-container {
-display: flex;
-flex-flow: row wrap;
-gap: 10px;
-justify-content: space-around;
-margin: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 10px;
+  justify-content: space-around;
+  margin: 10px;
 }
