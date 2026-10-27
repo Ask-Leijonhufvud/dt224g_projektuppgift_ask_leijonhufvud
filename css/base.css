@@ -9,20 +9,23 @@
 * {
   box-sizing: border-box;
 }
-
+/* COLOURS */
 body {
   margin: 0;
   background-color: var(--background-primary);
   color: var(--foreground-primary);
 }
-
 header,
 footer {
   background-color: var(--background-secondary);
 }
-
 a {
   color: var(--foreground-secondary);
+}
+
+/* centre h1:s */
+h1 {
+  text-align: center;
 }
 
 /* HEADER */
