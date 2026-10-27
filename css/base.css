@@ -86,7 +86,7 @@ nav li {
 }
 /*bottom border*/
 header {
-    border-bottom: 1px solid var(--foreground-primary);
+  border-bottom: 1px solid var(--foreground-primary);
 }
 /* desktop layout */
 @media (min-width: 610px) {
@@ -141,4 +141,21 @@ header {
   flex-direction: column;
   align-items: center;
   /* cause of gaps between links is undetermined */
+}
+/* desktop layout */
+@media (min-width: 600px) {
+  /* logo & title */
+  #logo-footer {
+    flex-direction: row;
+  }
+  /* overall layout */
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  /* footer links */
+  #footer-links {
+    margin-right: 30px;
+  }
 }
