@@ -10,6 +10,11 @@ const phoneInput = document.getElementById("phone");
 function validateInput() {
     // clear error messages
     errorList.innerHTML = "";
+
+    // read input values
+    let message = messageInput.value;
+    let email = emailInput.value;
+    let phone = phoneInput.value;
 }
 
 // event listener for form submission
