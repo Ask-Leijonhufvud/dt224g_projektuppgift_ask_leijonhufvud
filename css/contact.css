@@ -3,3 +3,10 @@
     color: #FFFF00;
     background-color: #AD0000;
 }
+
+/* set background for form */
+form {
+    background-color: var(--background-secondary);
+    padding: 10px;
+    border-radius: 10px;
+}
