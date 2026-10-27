@@ -15,3 +15,8 @@ form {
 form label {
     display: block;
 }
+
+/* space fields */
+form div {
+    margin: 10px;
+}
