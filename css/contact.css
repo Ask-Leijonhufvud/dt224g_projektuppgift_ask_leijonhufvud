@@ -31,3 +31,8 @@ form div {
 textarea, input {
     width: 100%;
 }
+
+/* alternate contact methods */
+main p {
+    margin: 25px;
+}
