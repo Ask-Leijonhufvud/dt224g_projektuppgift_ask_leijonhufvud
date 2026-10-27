@@ -20,3 +20,11 @@
   justify-content: space-around;
   margin: 10px;
 }
+
+/* text in cards */
+.card p {
+    padding: 0 10px;
+}
+.card h3 {
+    padding: 0 10px;
+}
