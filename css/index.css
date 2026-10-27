@@ -9,4 +9,5 @@
     height: 400px;
     background-color: var(--background-secondary);
     border-radius: 10px;
+    border: 1px solid var(--foreground-primary);
 }
