@@ -32,3 +32,8 @@ h2 {
     padding: 0 10px;
     text-align: center;
 }
+/* images in cards */
+.card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
