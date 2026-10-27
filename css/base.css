@@ -77,6 +77,12 @@ h1 {
   align-items: center;
 }
 /*menu options*/
+nav {
+  display: none;
+}
+nav.show {
+  display: block;
+}
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -85,7 +91,6 @@ nav ul {
 nav li {
   padding: 5px 20px;
   border-top: 1px solid var(--foreground-primary);
-  display: none;
 }
 /*bottom border*/
 header {
@@ -94,6 +99,9 @@ header {
 /* desktop layout */
 @media (min-width: 610px) {
   /* show menu options */
+  nav {
+    display: block;
+  }
   nav li {
     display: inline-block;
   }
