@@ -38,6 +38,12 @@ function validateInput() {
         newErrorList.forEach(error => {
             errorList.innerHTML += `<li>${error}</li>`;
         });
+    } else {
+        // if input is NOT invalid
+        messageInput.value = "";
+        emailInput.value = "";
+        phoneInput.value = "";
+        // the organization which would receive and process these messages does not exist and therefore the messages are simply removed.
     }
 }
 
