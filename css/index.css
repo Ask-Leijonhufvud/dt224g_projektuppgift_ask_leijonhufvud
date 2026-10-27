@@ -11,3 +11,12 @@
     border-radius: 10px;
     border: 1px solid var(--foreground-primary);
 }
+
+/* layout card section */
+#destinations-container {
+display: flex;
+flex-flow: row wrap;
+gap: 10px;
+justify-content: space-around;
+margin: 10px;
+}
