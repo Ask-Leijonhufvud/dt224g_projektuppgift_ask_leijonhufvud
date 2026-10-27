@@ -104,3 +104,10 @@ header {
   flex-direction: column;
   align-items: center;
 }
+/* footer links */
+#footer-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* cause of gaps between links is undetermined */
+}
