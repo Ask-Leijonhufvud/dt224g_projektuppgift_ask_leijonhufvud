@@ -20,6 +20,9 @@
   justify-content: space-around;
   margin: 10px;
 }
+h2 {
+    text-align: center;
+}
 
 /* text in cards */
 .card p {
