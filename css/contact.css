@@ -10,3 +10,8 @@ form {
     padding: 10px;
     border-radius: 10px;
 }
+
+/* arrange labels */
+form label {
+    display: block;
+}
